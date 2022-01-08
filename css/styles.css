@@ -1,3 +1,23 @@
+/* цвет основного текста color: #212121; */
+/* вторичний цвет текста color: #FFFFFF; */
+/* акцентный цвет color: #2196F3; */
+/* основной цвет фона background: #FFFFFF */
+
 body {
   font-family: 'Roboto', sans-serif;
+  background: #ffffff;
+  color: #212121;
+}
+
+/* секцыя навигацыи */
+
+.site-nav .link {
+  color: #212121;
+}
+.site-nav .link:hover,
+.link:focus {
+  color: #2196f3;
+}
+.site-nav .link.current {
+  color: #2196f3;
 }
