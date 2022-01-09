@@ -8,7 +8,6 @@ body {
   background: #ffffff;
   color: #212121;
 }
-
 /* секцыя навигацыи */
 
 .site-nav .link {
@@ -19,5 +18,28 @@ body {
   color: #2196f3;
 }
 .site-nav .link.current {
+  color: #2196f3;
+}
+.link {
+  color: #757575;
+  text-decoration: none;
+}
+.address .link:hover,
+.link:focus {
+  color: #2196f3;
+}
+/* секцыя футер */
+.footer {
+  background-color: #2f303a;
+}
+.footer-address .link {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: #ffffff;
+}
+.footer-address .link:hover,
+.link:focus {
   color: #2196f3;
 }
