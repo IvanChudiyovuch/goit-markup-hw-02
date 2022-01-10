@@ -8,6 +8,29 @@ body {
   background: #ffffff;
   color: #212121;
 }
+
+.list {
+  text-decoration: none;
+}
+
+/* секцыя хедер */
+.logo-title {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #212121;
+}
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #2196f3;
+}
+
 /* секцыя навигацыи */
 
 .site-nav .link {
