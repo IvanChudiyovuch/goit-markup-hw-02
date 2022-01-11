@@ -1,68 +1,94 @@
 /* цвет основного текста color: #212121; */
-/* вторичний цвет текста color: #FFFFFF; */
+/* вторичний цвет текста color: #757575; */
 /* акцентный цвет color: #2196F3; */
-/* основной цвет фона background: #FFFFFF */
+/* основной цвет фона background: #FFFFFF; */
+
+:root {
+  --main-color: #212121;
+  --secondary-color: #757575;
+  --accent-color: #2196f3;
+  --main-background-color: #ffffff;
+}
 
 body {
   font-family: 'Roboto', sans-serif;
-  background: #ffffff;
-  color: #212121;
+  background-color: var(--main-background-color);
+  color: var(--main-color);
 }
 
 .list {
-  text-decoration: none;
+  list-style: none;
 }
 
 /* секцыя хедер */
 .logo-title {
   font-family: Raleway;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
-  color: #212121;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: #000000;
 }
 .logo {
   font-family: Raleway;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
-  color: #2196f3;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: var(--accent-color);
 }
-
+.header .logo-title:hover,
+logo-title:focus {
+  color: var(--accent-color);
+}
 /* секцыя навигацыи */
 
 .site-nav .link {
-  color: #212121;
+  color: var(--main-color);
 }
 .site-nav .link:hover,
 .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .site-nav .link.current {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .link {
-  color: #757575;
+  color: var(--secondary-color);
   text-decoration: none;
 }
 .address .link:hover,
 .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 /* секцыя футер */
+
+.footer-logo-title {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.footer .footer-logo-title:hover,
+footer-logo-title:focus {
+  color: var(--accent-color);
+}
 .footer {
   background-color: #2f303a;
 }
 .footer-address .link {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   text-decoration: none;
   color: #ffffff;
 }
 .footer-address .link:hover,
 .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
