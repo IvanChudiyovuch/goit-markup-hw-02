@@ -128,12 +128,13 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--active-btn-text-color);
+  background-color: #2196f3;
   cursor: pointer;
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
-  background-color: var(--accent-background-color);
+  background-color: #0e87e7;
   color: var(--active-btn-text-color);
 }
 
