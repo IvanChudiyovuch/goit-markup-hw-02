@@ -34,32 +34,32 @@ body {
   clip-path: inset(50%);
   margin: -1px;
 }
-
-/* секцыя хедер */
-.logo-title {
+.logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
+  color: var(--accent-color);
+}
+
+/* секцыя хедер */
+
+.logo-dark {
   color: #000000;
 }
 
-.logo {
-  font-family: Raleway;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  text-decoration: none;
+.logo:hover,
+.logo:focus {
   color: var(--accent-color);
 }
 
-.logo-title:hover,
-.logo-title:focus {
+.logo-dark:hover,
+.logo-dark:focus {
   color: var(--accent-color);
 }
+
 /* секцыя навигацыи */
 
 .site-nav .link {
@@ -80,7 +80,7 @@ body {
   text-decoration: none;
 }
 
-.header-list-item {
+.header-item {
   font-weight: 500;
   font-size: 14px;
   line-height: calc (16 / 14);
@@ -88,7 +88,7 @@ body {
   color: var(--main-color);
 }
 
-.address-list-item {
+.address-item {
   font-family: inherit;
   font-weight: 500;
   font-size: 14px;
@@ -140,7 +140,7 @@ body {
 
 /* ---Наши особенности--- */
 
-.specifics-list-title {
+.specifics-title {
   font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -149,7 +149,7 @@ body {
   color: var(--main-color);
 }
 
-.specifics-list-text {
+.specifics-text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -178,7 +178,7 @@ body {
   color: var(--main-color);
 }
 
-.team-list-title {
+.team-title {
   font-weight: 500;
   font-size: 16px;
   line-height: calc(19 / 16);
@@ -187,7 +187,7 @@ body {
   color: var(--main-color);
 }
 
-.team-list-text {
+.team-text {
   font-size: 16px;
   line-height: calc(19 / 16);
   text-align: center;
@@ -216,7 +216,7 @@ body {
   color: var(--active-btn-text-color);
 }
 
-.work-list-title {
+.work-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -224,7 +224,7 @@ body {
   color: var(--main-color);
 }
 
-.work-list-text {
+.work-text {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
@@ -233,19 +233,15 @@ body {
 
 /* секцыя футер */
 
-.footer-logo-title {
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  text-decoration: none;
+.logo-white {
   color: #ffffff;
 }
 
-.footer-logo-title:hover,
-.footer-logo-title:focus {
+.logo-white:hover,
+.logo-white:focus {
   color: var(--accent-color);
 }
+
 .footer {
   background-color: #2f303a;
 }
